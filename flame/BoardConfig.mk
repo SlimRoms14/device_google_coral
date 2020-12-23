@@ -26,3 +26,5 @@ else
 
   include device/google/coral/BoardConfig-common.mk
 endif
+
+include vendor/google/flame/BoardConfigVendor.mk
