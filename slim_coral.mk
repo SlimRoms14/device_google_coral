@@ -10,7 +10,7 @@ $(call inherit-product, vendor/slim/config/common_full_phone.mk)
 # Inherit device configuration
 $(call inherit-product, device/google/coral/aosp_coral.mk)
 
-include device/google/coral/device-slim.mk
+include device/google/coral/coral/device-slim.mk
 
 # Device identifier. This must come after all inclusions
 PRODUCT_BRAND := google
