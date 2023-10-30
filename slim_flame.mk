@@ -5,7 +5,6 @@
 #
 
 # Inherit some common SlimRoms stuff.
-TARGET_DISABLE_EPPE := true
 $(call inherit-product, vendor/slim/config/common_full_phone.mk)
 
 # Inherit device configuration
